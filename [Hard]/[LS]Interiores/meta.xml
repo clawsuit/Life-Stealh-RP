@@ -1,0 +1,9 @@
+<meta>
+	<info author="Sticmy" name="interiors roleplay" description="interiors roleplay" type="script" version="1.5" autostart="true"/>
+	
+	<script src="interiores.lua" type="shared" cache="false"/>
+	<script src="interiores_cliente.lua" type="client" cache="false"/>
+	<script src="interiores_server.lua" type="server"/>
+	
+	<oop>true</oop>
+</meta>

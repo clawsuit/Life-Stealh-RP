@@ -1,0 +1,41 @@
+<meta>
+
+	<info author="ClawSuit" name="" version="1.0" type="script" />
+
+
+
+	<file src='Data.xml' cache="false"/>
+
+	<script src="export.lua" type="shared" cache="false"/>
+
+
+
+	<script src="datacliente.lua" type="client" cache="false"/>
+
+	<script src="data.lua" type="server"/>
+
+
+
+	<export function='getMyCode' type="shared"/>
+
+	<export function="setDato" type="client"/>
+
+	<export function="setDato" type="server"/>
+
+	<export function="getDato" type="client"/>
+
+	<export function="getDato" type="server"/>
+
+	<export function="getDatos" type="client"/>
+
+	<export function="getDatos" type="server"/>
+
+	<export function="removeDato" type="client"/>
+
+	<export function="removeDato" type="server"/>
+
+
+
+	<oop>true</oop>
+
+</meta>

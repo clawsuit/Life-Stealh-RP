@@ -1,0 +1,27 @@
+<meta>
+
+	<info author="ClawSuit" name="Blips Custom" version="1.0" type="script" autostart="true"/>
+
+
+
+	<script src="cliente.lua" type="client" cache="false"/>
+
+	<script src="server.lua" type="server"/>
+
+
+
+	<export function="createNewBlip" type="server"/>
+
+	<export function="createNewBlipAttachedTo" type="server"/>
+
+
+
+	<file src="images/gasolinera.png"/>
+
+	<file src="images/gobierno.png"/>
+
+
+
+	<oop>true</oop>
+
+</meta>

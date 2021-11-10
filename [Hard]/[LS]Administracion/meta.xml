@@ -1,0 +1,41 @@
+<meta>
+
+	<info author="Sticmy" name="Administración general" version="1.0" type="script"/>
+
+
+
+	<script src="comandos_staff.lua" type="server"/>
+
+
+
+	<script src="cliente.lua" type="client" cache="false"/>
+
+	<script src="jail_ooc.lua" type="server"/>
+
+
+
+	<script src="joinquit_staff.lua" type="server"/>
+
+
+
+	<export function="isPlayerExists" type="server"/>
+
+	<export function="setPlayerJail" type="server"/>
+
+
+
+	<export function="getPlayerFaction" type="server"/>
+
+	<export function="getPlayerDivision" type="server"/>
+
+	
+
+	<export function="getPlayerLeaderDivision" type="server"/>
+
+	<export function="getPlayerLeader" type="server"/>
+
+
+
+	<oop>true</oop>
+
+</meta>

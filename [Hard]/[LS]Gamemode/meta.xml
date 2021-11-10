@@ -1,0 +1,91 @@
+<meta>
+
+	<info author="Sticmy edited ClawSuit" name="Roleplay 1.0" description="Gamemode Roleplay" type="gamemode" version="1.5" autostart="true"/>
+
+
+
+	<script src="gamemode.lua" type="server"/>
+
+	<script src="sacar_identificacion.lua" type="server"/>
+
+	<!--Chats-->
+
+	<script src="chats/anti_ip.lua" type="server"/>
+
+	<script src="chats/chat_principal.lua" type="server"/>
+
+	<script src="chats/chat_administrativo.lua" type="server"/>
+
+	<script src="chats/chat_do.lua" type="server"/>
+
+	<script src="chats/chat_ooc.lua" type="server"/>
+
+	<script src="chats/chat_grito.lua" type="server"/>
+
+	<script src="chats/describir_personaje.lua" type="server"/>
+
+	<!---->
+
+	<!--Hud-->
+
+	<script src="hud/hud_server.lua" type="server"/>
+
+	<script src="hud/hud_cliente.lua" type="client" cache="false"/>
+
+	<!---->
+
+	<!--Empezar-->
+
+	<script src="gui_empezar/empezar_cliente.lua" type="client" cache="false"/>
+
+	<script src="gui_empezar/empezar_server.lua" type="server"/>
+
+	<!---->
+
+	<!--Comandos-->
+
+	<script src="commands/anims_server.lua" type="server"/>
+
+	<script src="commands/datos.lua" type="server"/>
+
+	<script src="commands/dni.lua" type="server"/>
+
+	<script src="commands/duda_pm_utils.lua" type="server"/>
+
+	<script src="commands/darlicencia.lua" type="server"/>
+
+	<!---->
+
+	<!--Peds-->
+
+	<script src="peds_and_yo/peds_cliente.lua" type="client" cache="false"/>
+
+	<!---->
+
+	<!--Pickups Infos-->
+
+	<script src="pickups_info/pickups_info.lua" type="client" cache="false"/>
+
+	<!---->
+
+
+
+	<export function="MensajeRoleplay" type="server"/>
+
+	
+
+	<export function="addhudPlayer" type="server"/>
+
+	<export function="message_admins" type="server"/>
+
+	<export function="addhudPlayer" type="client"/>
+
+	<export function="removeHudPlayer" type="server"/>
+
+	<export function="removeHudPlayer" type="client"/>
+
+	
+
+	<oop>true</oop>
+
+</meta>

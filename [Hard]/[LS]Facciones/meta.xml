@@ -1,0 +1,35 @@
+<meta>
+	<info author="Sticmy and ClawSuit" name="Sistema de Facciones" version="1.5" type="script" />
+
+	<script src="faccion_cliente.lua" type="client" cache="false"/>
+	<script src="faccion__server.lua" type="server"/>
+
+	<script src="Divisiones/divisiones_server.lua" type="server"/>
+	<!-- Policia -->
+		<script src="Policia/faccion_policia.lua" type="server"/>
+		<script src="Policia/comandos_policia_utils.lua" type="server"/>
+	<!---->
+	<!-- Medico -->
+		<script src="Medico/faccion_medico.lua" type="server"/>
+		<script src="Medico/garage_medico.lua" type="server"/>
+	<!---->
+	<!-- Mecanico -->
+		<script src="Mecanico/faccion_mecanico.lua" type="server"/>
+	<!---->
+	<!-- Gobierno -->
+		<script src="Gobierno/faccion_gobierno.lua" type="server"/>
+	<!---->
+
+	<export function="isPlayerExistsArresto" type="server"/>
+	<export function="setPlayerJailPolice" type="server"/>
+	<export function="getTaserCables" type="server"/>
+
+	<export function="dxDrawTextWorldStatic" type="client"/>
+
+	<!--file src="files/dee5cc340eb4d.mp3"/-->
+	<file src="files/Fire.wav"/>
+	<file src="files/taser.dff"/>
+	<file src="files/taser.txd"/>
+
+	<oop>true</oop>
+</meta>
