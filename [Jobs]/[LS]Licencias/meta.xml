@@ -1,0 +1,18 @@
+<meta>
+	<info author="Sticmy" name="Sistema de Licencias" version="1.0" type="script" autostart="true"/>
+
+	<script src="marcadores.lua" type="shared" cache="false"/>
+	
+	<script src="saves.lua" type="server"/>
+
+	<script src="licencia_cliente.lua" type="client" cache="false"/>
+	<script src="licencia_server.lua" type="server"/>
+
+	<script src="Arma/tablepos.lua" type="shared" cache="false"/>
+	<script src="Arma/licencia_arma_cliente.lua" type="client" cache="false"/>
+	<script src="Arma/licencia_arma_server.lua" type="server"/>
+
+	<script src="ConducirMision/Conducir_Cliente.lua" type="client" cache="false"/>
+
+	<oop>true</oop>
+</meta>

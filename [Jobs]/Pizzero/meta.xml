@@ -1,0 +1,19 @@
+<meta>
+
+	<info author="Master fix>ClawSuit" name="Trabajo de Pizzero" description="Trabajo de Pizzero" type="script" version="1.0" autostart="true"/>
+
+	
+
+	<script src="table_pizzero.lua" type="shared" cache="false"/>
+
+	<script src="save.lua" type="server"/>
+
+	<script src="pizzero_server.lua" type="server"/>
+
+	<script src="pizzero_cliente.lua" type="client" cache="false"/>
+
+
+
+	<oop>true</oop>
+
+</meta>
