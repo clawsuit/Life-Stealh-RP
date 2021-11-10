@@ -1,0 +1,38 @@
+<meta>
+	<info author="Master" name="MySQL Roleplay" description="MySQL" type="script" version="1.0"/>
+	
+	<script src="exports.lua" type="server"/>
+	<script src="cliente.lua" type="client" cache="false"/>
+	<script src="Exp_code.lua" type="shared" cache='false'/>
+	
+	<export function="query" type="server"/>
+	<export function="insert" type="server"/>
+	<export function="update" type="server"/>
+	<export function="delete" type="server"/>
+	<export function="AccountName" type="server"/>
+	<export function="notIsGuest" type="server"/>
+	<export function="isPlayerInACL" type="server"/>
+	<export function="isPlayerInTeam" type="server"/>
+	<export function="isPlayerStaff" type="server"/>
+	<export function="getPlayerFromPartialNameID" type="server"/>
+	<export function="getPlayerFromPartialName" type="server"/>
+	<export function="removeColorCoding" type="server"/>
+	<export function='getACLFromPlayer' type='server' />
+	<export function="isVehicleEmpty" type="shared"/>
+	<export function='getPlayerNearbyVehicle' type='shared' />
+	<export function='getPlayerLeader' type='server' />
+	<export function='getPlayerLeaderDivision' type='server' />
+	<export function='getPlayerFaction' type='server' />
+	<export function='getPlayerDivision' type='server' />
+	<export function='inPlayerVehiclePolice' type='server' />
+	<export function='_getPlayerNameR' type='shared' />
+	<export function='convertNumber' type='shared' />
+	<export function='getMapFromWorldPosition' type='client' />
+	<export function='inPlayerVehiclePolice' type='server' />
+	<export function='getPedWeapons' type='server' />
+<export function='MensajeRol' type='server' />
+	
+	<export function='getMyCode'/>
+	
+	<oop>true</oop>
+</meta>

@@ -1,0 +1,7 @@
+<meta>
+    <info name="Vestuarios" author="ClawSuit" description="None" version="1.0" type="script" autostart="true"></info>
+    <script src="client.lua" type="client" cache="false"></script>
+    <script src="server.lua" type="server"></script>
+
+    <oop>true</oop>
+</meta>

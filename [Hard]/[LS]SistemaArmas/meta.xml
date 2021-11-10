@@ -1,0 +1,8 @@
+<meta>
+	<info author="Sticmy" name="Sistema de Armas Policiales" version="1.0" type="script" autostart="true"/>
+
+	<script src="cliente.lua" type="client" cache="false"/>
+	<script src="server.lua" type="server"/>
+
+	<oop>true</oop>
+</meta>

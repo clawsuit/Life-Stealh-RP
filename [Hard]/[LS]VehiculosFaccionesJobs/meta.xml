@@ -1,0 +1,13 @@
+﻿<meta>
+	<info author="ClawSuit" name="Sistema de vehículos" version="1.0" type="script" autostart="true"/>
+	
+	<script src="Tablas.lua" type="server"/>
+	<script src="Vehiculos_Cliente.lua" type="client" cache="false"/>
+	<script src="Vehiculos_Comandos.lua" type="server"/>
+	<script src="Vehiculos_Server.lua" type="server"/>
+	<script src="renta_server.lua" type="server"/>
+
+	<export function="respawnVehJob" type="server"/>
+
+	<oop>true</oop>
+</meta>
