@@ -1,0 +1,53 @@
+<meta>
+
+	<info author="Sticmy and ClawSuit" name="Login Roleplay" description="Login Roleplay" version="1.5" type="script" autostart="true"/>
+
+
+
+	<script src="TestRol/testRoleplay.lua" type="client" cache="false"/>
+
+	<script src="TestRol/testRoleplay_server.lua" type="server"/>
+
+	<!-- Información para el Skin y Selector de skin -->
+
+
+
+	<script src="login_cliente.lua" type="client" cache="false"/>
+
+	<script src="login_server.lua" type="server"/>
+
+	<script src="guardarDatos.lua" type="server"/>
+
+	<script src="cameras.lua" type="client" cache="false"/>
+
+
+
+
+
+	<script src="skin_selector_info/info_cliente.lua" type="client" cache="false"/>
+
+	<script src="skin_selector_info/info_server.lua" type="server"/>
+
+	
+
+	<!--images-->
+
+	<file src="img/discord.png"/>
+
+	<file src="img/facebook.png"/>
+
+	<file src="img/youtube.png"/>
+
+	<!--fuentes-->
+
+	<file src="img/Arista_Trial.ttf"/>
+
+	<file src="img/Nickainley_Normal.ttf"/>
+
+	<file src="img/music.mp3"/>
+
+
+
+	<oop>true</oop>
+
+</meta>

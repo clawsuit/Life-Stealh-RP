@@ -1,0 +1,53 @@
+<meta>
+
+	<info author="Sticmy and ClawSuit" name="Notificaciones all" description="" version="1.0" type="script" autostart="true"/>
+
+
+
+	<script src="cliente.lua" type="client" cache="false"/>
+
+	<script src="server.lua" type="server"/>
+
+	
+
+	<script src="dialogo/dialogo_cliente.lua" type="client" cache="false"/>
+
+	<script src="dialogo/dialogo_server.lua" type="server"/>
+
+
+
+	<script src="text/Noti_c.lua" type="client" cache="false"/>
+
+	<script src="text/Noti_s.lua" type="server"/>
+
+
+
+	<file src="files/info.png"/>
+
+	<file src="files/error.png"/>
+
+	<file src="files/warning.png"/>
+
+
+
+	<export function="callNotification" type="client"/>
+
+	<export function="callNotification" type="server"/>
+
+
+
+	<export function="setTextNoti" type="client"/>
+
+	<export function="setTextNoti" type="server"/>
+
+
+
+	<export function="callCinematic" type="client"/>
+
+	<export function="callCinematic" type="server"/>
+
+
+
+	<oop>true</oop>
+
+</meta>

@@ -1,0 +1,8 @@
+<meta>
+	<info author="Sticmy and ClawSuit" name="" version="1.0" type="script" autostart="true"/>
+
+	<script src="server.lua" type="server"/>
+	<script src="save.lua" type="server"/>
+
+	<oop>true</oop>
+</meta>

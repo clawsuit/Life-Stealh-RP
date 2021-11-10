@@ -1,0 +1,10 @@
+<meta>
+	<info author="Sticmy" name="Sistema de multas" version="1.0" type="script" autostart="true"/>
+
+	<script src="multas_table.lua" type="shared" cache="false"/>
+
+	<script src="multas_cliente.lua" type="client" cache="false"/>
+	<script src="multas_server.lua" type="server"/>
+
+	<oop>true</oop>
+</meta>

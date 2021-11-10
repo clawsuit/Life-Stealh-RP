@@ -1,0 +1,7 @@
+<meta>
+	<info author="Sticmy" name="Nametag roleplay" description="Nametag roleplay" type="script" version="1.5" autostart="true"/>
+	
+	<script src="nametag.lua" type="client" cache="false"/>
+	
+	<oop>true</oop>
+</meta>
