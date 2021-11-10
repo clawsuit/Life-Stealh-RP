@@ -1,0 +1,15 @@
+
+GUIEditor = {
+    window = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.window[1] = guiCreateWindow(492, 143, 370, 498, "Vestuario - Policía", false)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+
+        GuardarAspecto = guiCreateButton(185, 60, 175, 39, "Guardar aspecto", false, GUIEditor.window[1])
+        TomarAspectoGuardado = guiCreateButton(186, 104, 174, 39, "Tomar aspecto guardado", false, GUIEditor.window[1])
+        Listaparaskins = guiCreateGridList(14, 154, 169, 325, false, GUIEditor.window[1])
+        TomarSkin = guiCreateButton(202, 342, 140, 74, "Tomar Skin", false, GUIEditor.window[1])    
+    end
+)

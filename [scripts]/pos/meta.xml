@@ -1,0 +1,5 @@
+<meta>
+	<info author="Victor" name="Puerta" version="1" type="script" description="" />
+	<script src="pos.lua" />
+	<script src="client.lua" type="client" cache="false"/>
+</meta>
