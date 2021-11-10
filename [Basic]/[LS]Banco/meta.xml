@@ -1,0 +1,10 @@
+<meta>
+	<info author="Sticmy and ClawSuit" name="Sistema de Bancos" version="1.5" type="script" autostart="true"/>
+
+	<script src="table_atm.lua" type="shared" cache="false"/>
+	<script src="banco_server.lua" type="server"/>
+	<script src="save.lua" type="server"/>
+	<script src="cliente.lua" type="client" cache="false"/>
+
+	<oop>true</oop>
+</meta>

@@ -1,0 +1,19 @@
+<meta>
+
+	<info author="ClawSuit and Sticmy" name="Dejar Armas" type="script" version="1.0" auto="true"/>
+
+
+
+	<script src="cliente.lua" type="client" cache="false"/>
+
+	<script src="server.lua" type="server"/>
+
+
+
+	<export function="createWeaponGround" type="server"/>
+
+
+
+	<oop>true</oop>
+
+</meta>

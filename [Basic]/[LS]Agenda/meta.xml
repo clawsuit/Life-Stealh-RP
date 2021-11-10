@@ -1,0 +1,8 @@
+<meta>
+	<info author="Master" name="agenda" description="agenda" type="script" version="0.5" autostart="true"/>
+	
+	<script src="agenda_cliente.lua" type="client" cache="false"/>
+	<script src="agenda_server.lua" type="server"/>
+
+	<oop>true</oop>
+</meta>

@@ -1,0 +1,9 @@
+<meta>
+	<info author="Sticmy" name="Expendedoras" version="1.0" type="script" autostart="true"/>
+
+	<script src="tabla_pos.lua" type="shared" cache="false"/>
+	<script src="client.lua" type="client"  cache="false"/>
+	<script src="server.lua" type="server"/>
+
+	<oop>true</oop>
+</meta>
